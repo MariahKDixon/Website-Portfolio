@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.wrapper {
+    position: relative;
+    margin: auto;
+    padding: 0%;
+    max-width: 75vw;
+}
+
+.midground, .foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block
+}
+
+body {
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.midground {
+    background-color: hsla(hue, saturation, lightness, alpha);
+}
+
+.foreground {
+    background-color: hsla(hue, saturation, lightness, alpha);
+}
+
+/* HEADER */
+
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+    position: fixed;
+    line-height: 1.50;
+}
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    display: block;
+}
