@@ -61,7 +61,7 @@ body {
 
 .header a {
     display: block;
-}}
+}
 
 #ABOUT, /* Offset linked sections to account for header. */
 #PORTFOLIO,
